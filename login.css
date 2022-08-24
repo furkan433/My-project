@@ -1,0 +1,85 @@
+/* Bordered form */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/images\ \(3\).jpg);
+    background-size: cover;
+}
+
+.log {
+    width: 600px;
+    background-color: rgb(0, 0, 0, 0.4);
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.log input {
+    display: block;
+    width: 100%;
+    border: 1px solid blue;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.log label {
+    color: blue;
+    padding: 5px 0;
+    display: block;
+    font-size: 15px;
+}
+
+.cancelbtn {
+    color: blue;
+    font-size: 15px;
+    background: transparent;
+    margin: 5px auto;
+    display: block;
+    float: center;
+}
+
+.log h1 {
+    color: blue;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.log p {
+    color: navy;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+p {
+    padding: 0, 0;
+    margin: auto;
+    display: block;
+}
+
+.pos {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+a:hover {
+    color: rgb(228, 9, 82);
+    ;
+    background-color: aqua;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,80 @@
+body {
+    background-image: url(img/images\ \(3\).jpg);
+    background-size: cover;
+}
+
+.reg {
+    width: 600px;
+    background-color: rgb(0, 0, 0, 0.4);
+    margin: 50px auto;
+    padding: 15px;
+}
+
+.reg input {
+    display: block;
+    width: 100%;
+    border: 1px solid blue;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reg label {
+    color: blue;
+    padding: 5px 0;
+    display: block;
+    font-size: 15px;
+}
+
+.cancelbtn {
+    color: blue;
+    font-size: 15px;
+    background: transparent;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+}
+
+.reg h2 {
+    text-align: center;
+    color: blue;
+}
+
+.reg p {
+    text-align: center;
+    color: navy;
+}
+
+textarea {
+    color: blue;
+    padding: 5px 0;
+    display: block;
+    font-size: 15px;
+}
+
+.mb-3 label {
+    color: blue;
+    padding: 5px 0;
+    display: block;
+    font-size: 15px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: rgb(6, 237, 245);
+    background-color: brown;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
